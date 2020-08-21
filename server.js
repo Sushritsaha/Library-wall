@@ -20,8 +20,8 @@ app.set('views', __dirname + '/views')
 app.set('layout', 'layouts/layout')
 
 //MIDDLEWARE
-app.use(methodOverride('_method'))
 app.use(expressLayouts)
+app.use(methodOverride('_method'))
 app.use(express.static('public'))
 app.use(bodyParser.urlencoded({ limit: '10mb', extended: false }))
 

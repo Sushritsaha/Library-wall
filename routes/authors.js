@@ -98,7 +98,6 @@ router.delete('/:id', async (req, res) => {
 })
 
 module.exports = router
-
 // //Create Author Route
 // router.post('/', (req, res) => {
 //     const author = new Author({
