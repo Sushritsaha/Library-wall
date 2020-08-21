@@ -10,4 +10,4 @@ FilePond.setOptions({
     imageResizeTargetHeight: 150
 })
 
-FilePond.parse(document.body);
+FilePond.parse(document.body)
